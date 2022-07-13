@@ -15,7 +15,7 @@ captchascraper.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",ap
 captchascraper.post("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey,data=data)
 
 # patch
-captchascraper.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey,data=data)
+captchascraper.patch("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey,data=data)
 
 #delete
 captchascraper.delete("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey)

@@ -6,25 +6,24 @@ import captchascraper
 
 data = {"name": "captchascraper","message": "captchascraper","send_message": "投稿"}
 
-# https://www.scraperapi.com/
-bypass = bypass(apikey="APIKEYHERE")
+apikey
 
 # get
-bypass.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/")
+captchascraper.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey)
 
 # post
-bypass.post("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",data=data)
+captchascraper.post("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey,data=data)
 
 # patch
-bypass.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",data=data)
+captchascraper.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey,data=data)
 
 #delete
-bypass.delete("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/")
+captchascraper.delete("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey)
 ```
 # 使い方
 `$ pip install captchascraper`
 ```py
 import captchascraper
-bypass = bypass(apikey="APIKEYHERE")
-print(bypass.get("https://google.com").status_code)
+
+print(captchascraper.get("https://google.com").status_code)
 ```

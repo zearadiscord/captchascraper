@@ -20,8 +20,9 @@ captchascraper.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",ap
 #delete
 captchascraper.delete("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey)
 ```
-# 使い方
+# インストールの仕方
 `$ pip install captchascraper`
+`$ pip install git+https://github.com/zearadiscord/captchascraper`
 ```py
 import captchascraper
 

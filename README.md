@@ -20,7 +20,4 @@ bypass.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",data=data)
 
 #delete
 bypass.delete("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/")
-
-
-
 ```

@@ -1,6 +1,6 @@
 # captchascraper
-captcha and cloudflare bypass
-[getapi](https://www.scraperapi.com/)
+captcha and cloudflare bypass<brb>
+[get apikey](https://www.scraperapi.com/)
 # Example
 ```py
 import captchascraper

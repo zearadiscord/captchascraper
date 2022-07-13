@@ -1,6 +1,6 @@
 import requests
 
-def bypass(apikey):
+async def bypass(apikey):
     def get(url,headers=None,cookie=None,proxies=None):
       if proxies:
         return requests.get(f"http://api.scraperapi.com?api_key={apikey}&url=" + url,cookie=None,headers=headers,proxies=proxies)

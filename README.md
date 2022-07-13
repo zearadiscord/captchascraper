@@ -21,3 +21,10 @@ bypass.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",data=data)
 #delete
 bypass.delete("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/")
 ```
+# 使い方
+`$ pip install captchascraper`
+```
+import captchascraper
+bypass = bypass(apikey="APIKEYHERE")
+print(bypass.get("https://google.com").status_code)
+```

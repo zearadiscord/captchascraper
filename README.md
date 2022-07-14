@@ -7,13 +7,17 @@ import captchascraper
 
 data = {"name": "captchascraper","message": "captchascraper","send_message": "投稿"}
 
-apikey
+apikey = "APIKEYHERE"
 
 # get
 captchascraper.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey)
 
 # post
 captchascraper.post("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey,data=data)
+
+# put
+captchascraper.put("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey)
+
 
 # patch
 captchascraper.patch("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",apikey=apikey,data=data)

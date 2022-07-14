@@ -8,7 +8,7 @@ with open("README.md", "r") as f:
 
 
 setup(name='captchascraper',
-      version="0.0.8",
+      version="0.1.0a2",
       description='Captcha Bypass API',
       long_description=long_description,
       long_description_content_type="text/markdown",
